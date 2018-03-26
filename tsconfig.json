@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+
+    "strict": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    // "strictPropertyInitialization": true,
+    // "noImplicitAny": true,
+    // "alwaysStrict": true,
+    // "noImplicitReturns": true,
+    // "noImplicitThis": true,
+
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "lib": [
+      "esnext.asynciterable",
+      "es5",
+      "esnext",
+      "es2015.generator",
+      "es2015.iterable"
+    ]
+  },
+  "files": ["./src/index.ts"],
+  "exclude": ["node_modules", "dist"]
+}
